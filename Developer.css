@@ -13,18 +13,21 @@
 h1.title{
 	margin-bottom: 20px;
 	color: #444444;
-	font-family: 'Allura', cursive;
+	/* font-family: 'Allura', cursive; */
 	text-transform: uppercase;
-	font-size: 38px;
+	font-size: 50px;
 	word-spacing: 25px;
 	letter-spacing: 5px;
 }
 
 p{
 	margin-bottom: 15px;
-	font-size: 14px;
+	font-size: 21px;
 	line-height: 20px;
-	color: #a9a9a9;
+	color: #5e5959;
+}
+.p{
+	color: #f5f5f5;
 }
 
 .btn a {
@@ -53,9 +56,11 @@ p{
 }
 
 .logo a{
-	font-family: 'Allura', cursive;
-	font-size: 32px;
+	font-size: 46px;
 	color: #fb2274;
+	position: absolute;
+	left: 102px;
+	top: 21px;
 }
 
 .navbar_items ul{
@@ -73,18 +78,20 @@ p{
 
 /* banner_image */
 .banner_image{
-	background: url('images/p3.jpg') no-repeat top center;
+	background: url(/Dp\(2\)croped.jpg) no-repeat top center;
 	background-size: cover;
 	width: 100%;
-	height: 600px;
+	height: 800px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 }
 
 .banner_content{
-	text-align: center;
+	/* text-align: center; */
 	color: #fff;
+	left: 197px;
+	position: absolute;
 }
 
 .banner_content h1{
@@ -101,8 +108,7 @@ p{
 /* About */
 .about,
 .services,
-.contactus,
-.ourteam{
+.contactus{
 	text-align: center;
 	padding: 5% 10%;
 }
@@ -151,7 +157,7 @@ p{
 	border: 1px solid  #ccc;
 }
 /* our team */
-.ourteam{
+/* .ourteam{
 	background: #f5f5f5;
 }
 
@@ -186,7 +192,7 @@ p{
 
 .ourteam_wrapper .team_members:hover img{
 	transform: scale(1.1);
-}
+} */
 
 /* footer */
 .footer{
@@ -201,7 +207,7 @@ p{
 }
 
 
-
+/* 
 @media (max-width: 720px){
 
 	.navbar{
@@ -226,7 +232,7 @@ p{
 		margin-top: 35px;
 	}
 
-}
+} */
 
 
 /* arrow */
