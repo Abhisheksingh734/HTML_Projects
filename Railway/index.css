@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: black;
+    width: auto;
+}
+nav ul{
+    display: flex;
+    justify-content: right;
+}
+li{
+    color: white;
+    display: inline-block;
+    padding: 10px 30px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+/* .railwayimg{
+    background-image: url(/Railway/ankush-minda-7KKQG0eB_TI-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 90vh;
+} */
+.banner{
+    min-height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(/Railway/ankush-minda-7KKQG0eB_TI-unsplash.jpg) center/cover no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #ffff;
+}
+.card-container{
+    display: grid;
+    background-color: white;
+}
+/* .card-container{
+    display: flex;
+}
+.card-content{
+    position: absolute;
+} */
